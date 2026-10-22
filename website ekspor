@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Cipta Karya Indonusa | Premium Wood Pellets Exporter</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: #333; line-height: 1.6; }
+        header { background: #1b4332; color: white; padding: 20px; position: sticky; top: 0; z-index: 100; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; }
+        .logo { font-size: 24px; font-weight: bold; color: #52b788; }
+        nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: 500; }
+        nav a:hover { color: #52b788; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://unsplash.com') no-repeat center center/cover; height: 70vh; color: white; display: flex; align-items: center; text-align: center; justify-content: center; padding: 20px; }
+        .hero-content h1 { font-size: 48px; margin-bottom: 10px; }
+        .hero-content p { font-size: 20px; margin-bottom: 20px; color: #d8f3dc; }
+        .btn { background: #52b788; color: #1b4332; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+        .btn:hover { background: #74c69d; }
+        .section { padding: 60px 20px; max-width: 1200px; margin: 0 auto; }
+        .section h2 { text-align: center; margin-bottom: 40px; color: #1b4332; font-size: 32px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1-fraction)); gap: 30px; }
+        .card { background: #f8f9fa; padding: 30px; border-radius: 8px; border-top: 5px solid #52b788; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .card h3 { margin-bottom: 15px; color: #1b4332; }
+        .spec-list { list-style: none; margin-top: 10px; }
+        .spec-list li { padding: 5px 0; border-bottom: 1px solid #dee2e6; }
+        footer { background: #1b4332; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        @media (max-width: 768px) { .hero-content h1 { font-size: 32px; } .nav-container { flex-direction: column; gap: 15px; } nav a { margin: 0 10px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">Cipta Karya INDONUSA</div>
+            <nav>
+                <a href="#about">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>PT Cipta Karya Indonusa</h1>
+            <p>Your Reliable Partner for charcoal,  Wood Pellets and other biomassa from Indonesia</p>
+            <a href="#contact" class="btn">Inquire Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Our Company</h2>
+        <div style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 18px; color: #555;">
+            <p>PT Cipta Karya Indonusa is an export company committed to providing top-quality products from Indonesia to meet the needs of the global market. We specialize in supplying processed biomass products, such as wood pellets and wood chips, and also offer premium charcoal and briquettes to satisfy global demand. With a steadfast commitment to sustainability and rigorous quality control, we ensure that our international buyers receive exceptional biomass solutions for energy and power generation.</p>
+        </div>
+    </section>
+
+    <section id="products" class="section" style="background: #f4f9f4;">
+        <h2>Our Premium Products</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Wood Pellets</h3>
+                <p>High-density biomass fuel made from 100% natural wood industrial waste.</p>
+                <ul class="spec-list">
+                    <li><strong>Diameter:</strong> 6mm / 8mm</li>
+                    <li><strong>Moisture Content:</strong> &lt; 10%</li>
+                    <li><strong>Ash Content:</strong> &lt; 1.5%</li>
+                    <li><strong>Calorific Value:</strong> &gt; 4,200 Kcal/kg</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>briquettes</h3>
+                <p>Low ash and smoke briquettes are suitable for shisha or grilling.</p>
+                <ul class="spec-list">
+                    <li><strong>Daily Supply Capacity:</strong> Up to 20,000 Metric Tons</li>
+                    <li><strong>Packaging:</strong> Jumbo Bags (750-800 kg) / Bulk Carrier</li>
+                    <li><strong>Shipping Port:</strong> Major Ports in Indonesia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Our Export Desk</h2>
+        <div class="grid" style="grid-template-columns: 1fr;">
+            <div class="card" style="text-align: center;">
+                <h3>Get In Touch</h3>
+                <p style="margin-bottom: 20px;">Interested in our products or would like more information? Contact us directly via email or phone.</p>
+                <p><strong>PT CIPTA KARYA INDONUSA</strong></p>
+                <p>📧 Email: <LinkableSpan>risckisetiawanbisnis@gmail.com</LinkableSpan></p>
+                <p>📞 WhatsApp/Mobile: +62 858-3970-7012</p>
+                <p>📍 Office : South Lampung, Indonesia</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PT Cipta Karya Indonusa. All Rights Reserved. | Product from wealth Indonesia</p>
+    </footer>
+
+</body>
+</html>
